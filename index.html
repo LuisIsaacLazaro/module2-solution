@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>module2-solution</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <style>
+        h1 {
+            font-size: 30px;
+            text-align: center;
+            font-weight: bold;
+            color: #000000;
+            margin-bottom: 80px;
+            font-family: "Comic Sans MS", cursive, sans-serif; /* Cambiado a Comic Sans MS */
+        }
+
+        .custom-box {
+            background-color: #808080 !important;
+            border: 2px solid black;
+            margin-bottom: 10px;
+            margin-right: 10px;
+            width: 32%;
+            position: relative;
+            padding: 10px;
+            border: 4px solid #000000 !important;
+        }
+
+        .custom-boxg3 {
+            background-color: #808080 !important;
+            border: 2px solid black;
+            margin-bottom: 10px;
+            margin-right: 10px;
+            width: 32%;
+            position: relative;
+            padding: 10px;
+            border: 4px solid #000000 !important;
+        }
+
+        .custom-box-text {
+            margin-top: 30px;
+            margin-bottom: 0;
+            font-weight: bold;
+            color: #000000;
+            font-size: 25px;
+            line-height: 1;
+            font-family: "Comic Sans MS", cursive, sans-serif; /* Cambiado a Comic Sans MS */
+        }
+
+        .custom-box-textg3 {
+            margin-top: 30px;
+            margin-bottom: 0;
+            font-weight: bold;
+            color: #000000;
+            font-size: 25px;
+            line-height: 1;
+            font-family: "Comic Sans MS", cursive, sans-serif; /* Cambiado a Comic Sans MS */
+        }
+
+        
+
+        .custom-boxp1,
+        .custom-boxp2,
+        .custom-boxp3 {
+            
+            background-color: #ffffff !important;
+            padding: 5px;
+            position: absolute;
+            top: -3px;
+            right: -3px;
+            width: 40%;
+            font-weight: bold;
+            text-align: center;
+            font-size: 25px;
+            line-height: 1;
+            border: 3px solid #000000 !important;
+            font-family: "Comic Sans MS", cursive, sans-serif; /* Cambiado a Comic Sans MS */
+        }
+
+        .custom-boxp1 { background-color: #E9967A !important; color: #000000; }
+        .custom-boxp2 { background-color: #DC143C !important; color: #ffffff; }
+        .custom-boxp3 { background-color: #FAFAD2 !important; color: #000000; }
+
+        @media (max-width: 1200px) {
+            .custom-box {
+                width: 48%;
+                margin-right: 10px;
+            }
+            .custom-boxg3 {
+                width: 97%;  /* Ajustado el ancho */
+            }
+        }
+
+        @media (max-width: 800px) {
+        .custom-box {
+            width: 100%;  /* Ajustado el ancho al 100% cuando la pantalla es de 800px o menos */
+            margin-right: 0;  /* No se necesita margen derecho cuando el ancho es del 100% */
+        }
+        .custom-boxg3 {
+            width: 100%;  /* Ajustado el ancho al 100% cuando la pantalla es de 800px o menos */
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <h1>Our Menu</h1>
+
+    <div class="container-fluid">
+        <div class="row">        
+            <div class="col-md-4 col-sm-6 custom-box">
+                <p class="custom-box-text">lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat1.</p>
+                <div class="custom-boxp1">Chicken</div>
+            </div>
+              
+            <div class="col-md-4 col-sm-6 custom-box">
+                <p class="custom-box-text">lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat2.</p>
+                <div class="custom-boxp2">Beef</div>
+            </div>
+           
+            <div class="col-md-4 col-sm-4 custom-boxg3">
+                <p class="custom-box-textg3">lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat3.</p>
+                <div class="custom-boxp3">Sushi</div>
+            </div>             
+        </div>
+    </div>
+
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
